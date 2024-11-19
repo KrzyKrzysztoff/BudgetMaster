@@ -3,7 +3,7 @@ body{
     background-image: url("img/photo1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color: #F9F7F3;
+    color: #dda15e;
 }
 
 .navbar{
@@ -21,7 +21,9 @@ body{
 
 .navbar li{
     list-style-type: none;
-    padding: 15px;
+    padding: 12px;
+    padding-right: 25px;
+    margin-right: 10px;
 }
 
 .right-align{
@@ -50,7 +52,7 @@ body{
 .register-btn{
     margin-right: 15px;
     padding-right: 20px;
-    padding-left: 30px;
+    padding-left: 40px;
     z-index: 1000;
     background-color: #dda15e;
     color: #1b1b1b;
@@ -76,7 +78,6 @@ body{
     width: 15px;
     filter:saturate(2);
     cursor: pointer;
-    margin-right: 10px;
 }
 
 .logo:hover{
@@ -89,4 +90,13 @@ body{
 
 .link:hover{
     background-color: #283618;
+}
+
+.awesome{
+    margin: 3px;
+    position: absolute;
+}
+
+.link:hover{
+    color:#EEE5E9;
 }
